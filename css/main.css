@@ -1,0 +1,27 @@
+.flex-container {
+  display: flex;
+  background-color: rgba(0,0,0,.1);
+  height: 5rem;
+  justify-content: space-between;
+}
+
+.flex-item {
+  height: 5rem;
+  background-color: red;
+  width: 50px;
+  text-align: center;
+}
+
+.item-1 {
+  align-self: flex-end;
+  height: 30px;
+}
+
+.item-2 {
+  height: 28px;
+}
+
+.item-3 {
+  flex-grow: .4;
+  height: 60px;
+}
